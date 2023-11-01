@@ -1,9 +1,7 @@
-TypeScript React Ahooks useRequest Same Request in Different Components Demo
+TypeScript React Ahooks use Pagination Demo
 =================================
 
-当指定了cacheKey, useRequest可以当作远程状态管理来用。
-
-没有指定的话就不行
+分页
 
 ```
 npm install
