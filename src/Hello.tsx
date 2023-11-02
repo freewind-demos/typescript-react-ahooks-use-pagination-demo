@@ -25,6 +25,7 @@ async function getUserList(params: {
     current: number;
     pageSize: number;
 }): Promise<{ total: number; list: UserListItem[] }> {
+    console.log("### getUserList", params)
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(userList(params.current, params.pageSize));
